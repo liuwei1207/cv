@@ -1,0 +1,19 @@
+/* section_four content styles
+================================================================== */
+#section_four h1 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#section_four #word-cloud {
+    display: block;
+    width: 650px;
+    height: 450px;
+    background-color: rgba(254, 248, 239, 1) !important;
+    margin: 0 auto !important;
+    border-radius: 50%;
+    border: 2px solid #eee;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.3);
+}

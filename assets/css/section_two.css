@@ -1,0 +1,115 @@
+/* section_two content styles
+================================================================== */
+#section_two h1 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+#section_two .star {
+    display: inline-block;
+}
+/* 文字旋转效果 */
+#section_two #skills-rotate {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin: 0 auto 30px auto;
+}
+
+#section_two #skills-rotate a {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 6px;
+}
+
+#skills-rotate a:hover {
+    border: 1px solid #eee;
+    background: #000;
+    border-radius: 5px;
+}
+
+#section_two p {
+    text-align: center;
+}
+
+#section_two .skills-panel {
+    width: 992px;
+    margin: 15px auto 0 auto;
+    height: 320px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgba(254, 248, 239,.85);
+    clear: both;
+    border-radius: 4px;
+}
+
+#section_two .skills-panel .skill-item {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    height: 104px;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 10;
+}
+
+#section_two .skills-panel .skill-item h3 {
+    display: inline-block;
+    color: #1f8dd6;
+    margin: 0 0 10px;
+}
+
+#section_two .skills-panel .skill-item p {
+    font-size: 14px;
+    line-height: 1.4em;
+    margin: 0;
+    color: #333;
+    text-align: left;
+}
+
+#section_two .skills-panel .skill-item .img {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+#section_two .skills-panel .skill-item .img img {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+#section_two .skills-panel .skill-item .img img:before {
+    background: rgba(247, 98, 98, 0.8);
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.2);
+    content: "";
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    transform: skewX(-45deg);
+    -webkit-transform: skewX(-45deg);
+    width: 25px;
+    z-index: 9;
+}
+
+/* 窗口宽度<1024,设计宽度=959 */
+@media screen and (max-width: 1024px) {
+    #section_two #skills-rotate {
+        display: none;
+    }
+
+    #section_two .skills-panel {
+        width: 85%;
+    }
+}

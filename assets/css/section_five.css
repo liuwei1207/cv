@@ -1,0 +1,40 @@
+/* section_five content styles
+================================================================== */
+/* 文字旋转效果 */
+#section_five h1 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: -20px;
+}
+
+#section_five .two_mici {
+    width: 700px;
+    height: 350px;
+    margin: 80px auto 50px;
+}
+
+#section_five .two_mici img:nth-of-type(1) {
+    display: block;
+    float: left;
+    margin-right: 100px;
+}
+
+#section_five p {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    width: 900px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#section_five a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 10px;
+    color: #fff;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
