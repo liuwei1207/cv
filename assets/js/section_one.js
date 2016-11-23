@@ -26,6 +26,8 @@ $(document).ready(function () {
                 // 导航
                 'navigation': true,
             });
+
+        $.fn.fullpage.setAllowScrolling(false);
     });
 });
 
@@ -243,4 +245,16 @@ $(document).ready(function () {
         sc = Math.sin(c * dtr);
         cc = Math.cos(c * dtr);
     }
+});
+
+//hover
+$(document).ready(function () {
+    var logo = $("#logo");
+    logo.hover(function(){
+        logo.find("#header_p1").html("刘伟");
+        logo.find("#header_p2").html("个人简历");
+    },function(){
+        logo.find("#header_p1").html("Liuwei");
+        logo.find("#header_p2").html("<small>He is a Front-End Engineer</small>");
+    });
 });

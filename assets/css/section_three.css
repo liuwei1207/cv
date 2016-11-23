@@ -134,6 +134,9 @@
 }
 
 #section_three .main {
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
     background: url("../image/section_three/line-bg.png") repeat-y 249px 0;
 }
 
@@ -142,7 +145,7 @@
     line-height: 40px;
     padding-left: 67px;
     left: 230px;
-    top: 0;
+    top: -45px;
     color: #58a6fb;
     font-size: 24px;
     background: url("../image/section_three/clock.png") no-repeat left top;

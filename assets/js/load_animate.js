@@ -160,13 +160,6 @@
             }
             //页面加载动画
             startLoading();
-            $(document).ready(function () {
-                $(function () {
-                    //页面加载进度条启用
-                    NProgress.start();
-                    $.fn.fullpage.setAllowScrolling(false);
-                });
-            });
         };
 
         // disable scrolling
@@ -195,7 +188,7 @@
                         progress = 0.9;
                     }
 
-                    //当页面加载完毕移除页面遮罩，移除loading动画-
+                    //当页面加载完毕移除页面遮罩，移除loading动画，设置加载进度条100%显示。
                     if (document.readyState == "complete") {
                         progress = 1;
                         //页面加载进度条停用

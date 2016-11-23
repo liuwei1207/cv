@@ -122,6 +122,8 @@ body {
     height: 100%;
     width: 300px;
     display: inline-block;
+    text-align: left;
+    z-index: 100;
 }
 
 .top-nav .inner-container nav {
@@ -163,12 +165,20 @@ body {
 .top-nav .inner-container #header_p {
     height: 100%;
     display: inline-block;
-    float: right;
+    float: left;
+    margin-left: 15px;
     color: #fff;
 }
 
 .top-nav .inner-container #header_p #header_p1 {
+    display: block;
+    width: 100%;
     margin-top: 17px;
+}
+
+.top-nav .inner-container #header_p #header_p2 {
+    display: block;
+    width: 100%;
 }
 
 .top-nav .inner-container #header_img img {
