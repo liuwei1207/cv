@@ -44,7 +44,7 @@
     height: 320px;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: rgba(254, 248, 239,.85);
+    background-color: #f1f1f1;
     clear: both;
     border-radius: 4px;
 }

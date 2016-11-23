@@ -2,6 +2,18 @@
  * Created by Liuwei on 2016/11/21.
  */
 
+// init
+$(document).ready(function () {
+    console.log('Author: 刘伟,');
+    console.log('Email: 116402157@qq.com,');
+    console.log('Phone: 15895891210,');
+    console.log('Age: 26,');
+    console.log('Education: college,');
+    console.log('Position desired: Front-End Engineer,');
+    console.log('Target city: ["Suzhou", "Shanghai"],');
+    console.log('[' + (Date()) + ']');
+});
+
 // fullpage
 $(document).ready(function () {
     $(function () {
