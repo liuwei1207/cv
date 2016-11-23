@@ -255,6 +255,6 @@ $(document).ready(function () {
         logo.find("#header_p2").html("个人简历");
     },function(){
         logo.find("#header_p1").html("Liuwei");
-        logo.find("#header_p2").html("<small>He is a Front-End Engineer</small>");
+        logo.find("#header_p2").html("<small>JS on the front, JS on that back, JS at supper time.</small>");
     });
 });
