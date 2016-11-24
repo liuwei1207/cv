@@ -12,8 +12,8 @@ $(document).ready(function () {
         tooltip: {},
         series: [{
             type: 'wordCloud',
-            gridSize: 20,
-            sizeRange: [12, 50],
+            gridSize: 40,
+            sizeRange: [20, 60],
             rotationRange: [0, 0],
             shape: 'circle',
             textStyle: {
@@ -36,69 +36,221 @@ $(document).ready(function () {
                 value: 10000,
                 textStyle: {
                     normal: {
-                        color: 'black'
+                        color: '#fff'
                     },
                     emphasis: {
-                        color: 'red'
+                        color: '#0084b4'
                     }
                 }
             }, {
                 name: '篮球',
-                value: 6181
+                value: 6181,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '阅读技术类书刊杂志博客',
-                value: 4386
+                value: 4386,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '折腾轮子',
-                value: 4055
+                value: 4055,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '玩电视游戏:【Halo】',
-                value: 585
+                value: 585,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '玩电脑游戏大作:【Call of Duty】',
-                value: 2244
+                value: 2244,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '网球',
-                value: 1898
+                value: 1898,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '热爱coding',
-                value: 1484
+                value: 1484,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '听音乐',
-                value: 1112
+                value: 1112,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '看大熊猫直播',
-                value: 965
+                value: 965,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '阅读历史类书籍',
-                value: 847
+                value: 847,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
-                name: '喜欢收集各种页面特效',
-                value: 2467
+                name: '喜欢收集页面特效',
+                value: 2467,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '玩电脑游戏大作:【Battlefield】',
-                value: 555
+                value: 555,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '玩电脑游戏大作:【Counter-Strike-Go】',
-                value: 550
+                value: 550,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '玩竞技类游戏:【League of Legends】',
-                value: 462
+                value: 462,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '喜欢任何带抹茶口味的东西',
-                value: 366
+                value: 366,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '火锅',
-                value: 360
+                value: 360,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '烤肉',
-                value: 282
+                value: 282,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '玩桌游:【谁是卧底】',
-                value: 273
+                value: 273,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }, {
                 name: '看电影',
-                value: 265
+                value: 265,
+                textStyle: {
+                    normal: {
+                        color: '#fff'
+                    },
+                    emphasis: {
+                        color: '#0084b4'
+                    }
+                }
             }]
         }]
     };

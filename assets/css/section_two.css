@@ -16,7 +16,7 @@
     height: 300px;
     width: 300px;
     position: relative;
-    margin: 0 auto 30px auto;
+    margin: 30px auto 30px auto;
 }
 
 #section_two #skills-rotate a {
@@ -30,7 +30,8 @@
 
 #skills-rotate a:hover {
     border: 1px solid #eee;
-    background: #000;
+    background: #4ca5d0;
+    color: #fff!important;
     border-radius: 5px;
 }
 
@@ -40,13 +41,12 @@
 
 #section_two .skills-panel {
     width: 992px;
+    padding: 16px 16px 16px;
     margin: 15px auto 0 auto;
-    height: 320px;
+    height: 440px;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #f1f1f1;
     clear: both;
-    border-radius: 4px;
 }
 
 #section_two .skills-panel .skill-item {
@@ -63,7 +63,8 @@
 
 #section_two .skills-panel .skill-item h3 {
     display: inline-block;
-    color: #1f8dd6;
+    color: #4ca5d0;
+    font-weight: bold;
     margin: 0 0 10px;
 }
 
@@ -71,7 +72,7 @@
     font-size: 14px;
     line-height: 1.4em;
     margin: 0;
-    color: #333;
+    color: #a5b3bf;
     text-align: left;
 }
 

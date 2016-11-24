@@ -7,6 +7,10 @@
     margin-bottom: 80px;
 }
 
+#section_three p {
+    color: #fff;
+}
+
 #section_three .l {
     float: left;
 }
@@ -100,6 +104,7 @@
     position: relative;
     width: 960px;
     margin: 0 auto;
+    padding-top: 60px;
 }
 
 #section_three .light {
@@ -145,7 +150,7 @@
     line-height: 40px;
     padding-left: 67px;
     left: 230px;
-    top: -45px;
+    top: 20px;
     color: #58a6fb;
     font-size: 24px;
     background: url("../image/section_three/clock.png") no-repeat left top;
@@ -229,7 +234,7 @@
 }
 
 #section_three .main .year .list ul li.highlight .date, #section_three .main .year .list ul li.highlight .intro {
-    color: #ec6a13;
+    color: #4ca5d0;
 }
 
 #section_three .main .year .list ul li .date, #section_three .main .year .list ul li .version {
@@ -258,7 +263,7 @@
 #section_three .main .year .list ul li .intro {
     font-size: 18px;
     line-height: 32px;
-    color: #63d029;
+    color: #4ca5d0;
 }
 
 #section_three .wrapper:first-child .main .year.close h2 i {
